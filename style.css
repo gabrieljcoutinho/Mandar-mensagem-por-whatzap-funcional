@@ -68,14 +68,14 @@ button {
 }
 
 #confirmar-zap {
-    background: #fff;
-    color: white;
+    background: blue;
+    color: #fff;
     font-weight: bold;
 }
 
 .btn-cancelar {
-    background: #eee;
-    color: #333;
+    background: red;
+    color: #fff;
 }
 
 .imgZap {
