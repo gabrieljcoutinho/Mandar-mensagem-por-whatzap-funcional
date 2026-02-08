@@ -29,7 +29,7 @@ h1 {
     position: fixed;
     bottom: var(--space-12);
     right: var(--space-12);
-    background: linear-gradient(156deg, #25d366 0%, #128c7e 100%);
+    background: #fff;
     border-radius: var(--radii-full);
     padding: var(--space-3);
     box-shadow: 0 8px 20px rgba(0, 0, 0, .4);
@@ -68,7 +68,7 @@ button {
 }
 
 #confirmar-zap {
-    background: #25d366;
+    background: #fff;
     color: white;
     font-weight: bold;
 }
@@ -76,4 +76,8 @@ button {
 .btn-cancelar {
     background: #eee;
     color: #333;
+}
+
+.imgZap {
+    width: 30px;
 }
