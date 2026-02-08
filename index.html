@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Botão WhatsApp com Modal</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-    <div id="btn-zap" class="whatsapp-fixed">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-        <span>Falar com suporte</span>
+    <h1>Botão WhatsApp com Modal</h1>
+
+    <!-- Botão WhatsApp -->
+    <div id="btn-zap" class="c-gymMyL">
+        <svg stroke="currentColor" fill="currentColor" viewBox="0 0 512 512" height="32" width="32">
+            <path d="M414.73 97.1A222.14 222.14 0 0 0 256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0 0 29.78 111L32 480l118.25-30.87a223.63 223.63 0 0 0 106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 0 0 414.73 97.1z"/>
+        </svg>
     </div>
 
+    <!-- Modal -->
     <div id="modal-zap" class="modal-overlay">
         <div class="modal-content">
             <h3>Iniciar Conversa</h3>
             <p>Número: <strong>+55 (11) 99999-9999</strong></p>
             <p>Deseja ir para o WhatsApp agora?</p>
+
             <button id="confirmar-zap">Sim, iniciar chat</button>
             <button id="fechar-modal" class="btn-cancelar">Agora não</button>
         </div>
     </div>
 
     <script src="./script.js"></script>
-
 </body>
 </html>
